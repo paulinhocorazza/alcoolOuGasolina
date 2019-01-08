@@ -34,7 +34,7 @@
         android:gravity="center"
         android:hint="@string/alcool"
         android:inputType="numberDecimal"
-        android:textColor="#ffff"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/btnVerifica"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/inputGasolina" />
@@ -67,7 +67,7 @@
         android:hint="Gasolina"
         android:importantForAutofill="no"
         android:inputType="numberDecimal"
-        android:textColor="#ffff"
+        android:textColor="#000000"
         app:layout_constraintBottom_toTopOf="@+id/btnVerifica"
         app:layout_constraintEnd_toStartOf="@+id/inputAlcool"
         app:layout_constraintStart_toStartOf="parent" />
